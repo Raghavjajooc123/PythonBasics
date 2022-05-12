@@ -1,0 +1,4 @@
+first = int(input("Enter first number : "))
+sec = int(input("Enter second number : "))
+sum = first + sec
+print("The sum is : " + str(sum))
