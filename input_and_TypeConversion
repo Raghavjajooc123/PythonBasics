@@ -1,0 +1,11 @@
+# Taking Input
+name = input("What is your name: ")
+print("Hello" + name)
+
+# Type conversion
+age = int(input("Enter age: "))
+print(age+2)
+
+age = float(age)
+print(age)
+
