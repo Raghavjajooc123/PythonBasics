@@ -1,0 +1,28 @@
+# lists in python
+
+marks = [91,93,96,92]
+
+raghav = [91, "science"]
+print(raghav)
+
+print(marks)
+print(marks[0])
+print(marks[1])
+print(marks[-1])
+
+marks.append(90)
+print(marks)
+marks.insert(0,88)
+print(marks)
+
+print(marks[0:3])
+
+for i in marks:
+    print(i)
+    
+print(90 in marks)
+
+print(len(marks))
+
+marks.clear()
+print(marks)
