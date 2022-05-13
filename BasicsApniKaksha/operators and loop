@@ -1,0 +1,24 @@
+# arithmatic operators
+print(5 + 4)
+print(5 - 4)
+print(5 * 4)
+print(5 / 4)
+print(5 // 4)
+print(5 ** 4)
+print(5 % 4)
+
+# Comparision operators
+print(5 > 4)
+print(5 < 4)
+
+print(5>4 and 4>5)
+print(5>4 or 4>5)
+
+age = int(input("enter your age "))
+if age>18:
+    print("adult")
+    print("can vote")
+elif age>=3 and age<=18:
+    print("Teenager")
+else:
+    print("kid")
