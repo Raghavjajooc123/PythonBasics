@@ -1,0 +1,17 @@
+a = int(input("Enter the first number"))
+op = input("Enter the operator(+,-,*,/,%)")
+b = int(input("Enter the second munber"))
+ans = 0
+
+if op == '+':
+    ans = a+b
+elif op == '-':
+    ans = a-b
+elif op == '*':
+    ans = a*b
+elif op == '/':
+    ans = a/b
+elif op == '%':
+    ans = a%b
+    
+print(ans)
