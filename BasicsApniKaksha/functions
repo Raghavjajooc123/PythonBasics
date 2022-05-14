@@ -1,0 +1,17 @@
+# functions
+# module functions
+from math import pow
+# print(dir(math))
+
+
+# User defined functions
+def sum_num(a, b):
+    print(a+b)
+    
+print(pow(2,5))
+
+sum_num(1,5)
+
+# inbuilt functions
+num = int("6")
+print(3+num)
