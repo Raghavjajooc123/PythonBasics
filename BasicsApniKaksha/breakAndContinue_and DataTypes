@@ -1,0 +1,25 @@
+# break and continue
+
+marks = [91,93,96,92,93]
+
+for score in marks:
+    if score==92:
+        break
+    if score==96:
+        continue
+    print(score)
+    
+# tuples, sets and dictionary
+tup = (91, 93, 96, 92, 93)
+print(tup.index(91))
+print(tup.count(93))
+
+marks = {91, 93, 96, 92, 93}
+print(marks)
+
+marks = {"physics":89, "chemistry":90}
+print(marks["physics"])
+marks["english"] = 99
+print(marks)
+
+
